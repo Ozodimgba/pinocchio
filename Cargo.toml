@@ -9,6 +9,7 @@ members = [
     "sdk/log/macro",
     "sdk/pinocchio",
     "sdk/pubkey",
+    "sdk/keccak-hasher"
 ]
 
 [workspace.package]
@@ -21,6 +22,9 @@ five8_const = "0.1.4"
 pinocchio = { version = "0.8", path = "sdk/pinocchio" }
 pinocchio-log-macro = { version = "0.4", path = "sdk/log/macro" }
 pinocchio-pubkey = { version = "0.2", path = "sdk/pubkey" }
+base58 = "0.2.0"
+borsh = "1.5.7"
+bytemuck = "1.22.0"
 quote = "1.0"
 regex = "1"
 syn = "1.0"
